@@ -1,39 +1,56 @@
-# Scalable Task Platform
 
 
-A backend system built with Node.js and Express, designed as a foundation for scalable applications.
+#  Netflix Clone – Full Stack Deployment on AWS
 
-##  Why I Built This
+##  Overview
+This is a full-stack movie streaming application deployed on AWS EC2.
 
-I built this project to strengthen my backend development skills and understand how to structure scalable server-side applications using Node.js.
+It demonstrates how frontend, backend, and database work together in a real-world environment.
 
-This project represents my hands-on learning journey into backend engineering and system design.
+---
 
-##  Features 
+##  Architecture
+Frontend (React) → Backend (Spring Boot) → MongoDB
 
-- Basic server setup
-- API-ready structure
-- Scalable backend foundation
+---
 
 ##  Tech Stack
-- Node.js
-- Express
+- React.js
+- Spring Boot (Java)
+- MongoDB Atlas
+- AWS EC2 (Ubuntu)
+- Linux (SSH, systemd)
 
-##  How to Run
+---
 
-1. Install dependencies:
-```bash
-npm install
-```
+##  Deployment Steps
+1. Created EC2 instances for frontend and backend
+2. Connected via SSH
+3. Installed Node.js, Java, Maven
+4. Deployed backend and connected MongoDB
+5. Built frontend using:
+   npm run build
+6. Served frontend using:
+   serve -s build -l 3000
+7. Connected frontend to backend API
 
-2. Start the server:
-```bash
-node index.js
-```
+---
 
-3. Open in browser:
-http://localhost:3000
+##  Live Demo
+http://3.70.217.28:3000
 
-##  Author
-Victoria Ifeyinwa
+---
 
+##  Challenges & Solutions
+- Fixed MongoDB connection issues  
+- Resolved API 404 errors  
+- Added swap memory for EC2  
+- Configured systemd for persistent running  
+
+---
+
+##  Key Learnings
+- Cloud deployment with AWS  
+- Debugging real-world issues  
+- Full-stack integration  
+- Linux server management
