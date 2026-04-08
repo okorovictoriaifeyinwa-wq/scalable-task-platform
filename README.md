@@ -45,7 +45,25 @@ http://3.70.217.28:3000
 - Fixed MongoDB connection issues  
 - Resolved API 404 errors  
 - Added swap memory for EC2  
-- Configured systemd for persistent running  
+- Configured systemd for persistent running
+
+## 📸 Screenshots
+
+###  Application UI
+![App](./screenshots/app.png)
+
+###  Frontend Running on EC2
+![Frontend](./screenshots/frontend-terminal.png)
+
+###  Backend Running (Spring Boot)
+![Backend](./screenshots/backend-terminal.png)
+
+###  AWS EC2 Instance
+![EC2](./screenshots/ec2-instance.png)
+
+###  MongoDB Atlas
+![MongoDB](./screenshots/mongodb.png)
+- 
 
 ---
 
